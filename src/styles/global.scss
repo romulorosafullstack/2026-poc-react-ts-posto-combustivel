@@ -2,14 +2,13 @@ html{
   font-size: 62.5%;
 }
 
-*{
-  &::after,
-  &::before{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 body{
@@ -48,13 +47,17 @@ ol, ul{
   list-style: none;
 }
 
-blockquote, q{
+blockquote, 
+q{
   quotes: none;
-  &::after,
-  &::before{
-    content: '';
-    content: none;
-  }
+}
+
+blockquote:after, 
+blockquote:before,
+q:after,
+q:before{
+  content: '';
+  content: none;
 }
 
 table{
