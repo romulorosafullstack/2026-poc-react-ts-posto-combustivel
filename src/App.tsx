@@ -1,3 +1,5 @@
+
+import { Card } from "./components/Card/card";
 import Cards from "./components/Cards/cards";
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
@@ -8,7 +10,28 @@ export default function App() {
     <>
       <Header />
       <Main>
-        <Cards />
+        <Cards>
+          <Card 
+            name="Leandro Bezerra"
+            age={40}
+            city="RItapipoca da Serra"
+          />
+          <Card 
+            name="Flávio Souza"
+            age={40}
+            city="São Bernardo do Campo"
+          />
+          <Card 
+            name="Leonardo Ciriaco"
+            age={12}
+            city="Campão Redondo"
+          />
+          <Card 
+            name="Romulo Rosa"
+            age={45}
+            city="Hellosmile"
+          />
+        </Cards>
       </Main>
       <Footer />
     </>
