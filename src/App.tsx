@@ -14,17 +14,16 @@ export default function App() {
           <Card 
             name="Leandro Bezerra"
             age={40}
-            city="RItapipoca da Serra"
+            city="Itapipoca da Serra"
           />
           <Card 
             name="Flávio Souza"
             age={40}
-            city="São Bernardo do Campo"
           />
           <Card 
             name="Leonardo Ciriaco"
             age={12}
-            city="Campão Redondo"
+            city="Capão Redondo"
           />
           <Card 
             name="Romulo Rosa"

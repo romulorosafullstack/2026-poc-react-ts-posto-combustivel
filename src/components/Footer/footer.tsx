@@ -1,10 +1,12 @@
 import './footer.scss'
 
 export default function Footer() {
+  const copyrightText = "©Todos os direitos reservados";
+  
   return (
     <footer className="footer--wrapper">
       <div className="footer--content">
-        <h1 className="footer--title">Footer</h1>
+        <p className="footer--copyright">{copyrightText}</p>
       </div>
     </footer>
   );
