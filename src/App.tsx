@@ -32,7 +32,9 @@ export default function App() {
           />
         </Cards>
       </Main>
-      <Footer />
+      <Footer
+        copyright="Todos os direitos reservados "
+      />
     </>
   )
 }
