@@ -1,10 +1,10 @@
 import './footer.scss'
 
 interface FooterProps {
-  copyright: string;
+  copyright?: string;
 }
 
-export default function Footer({copyright}: FooterProps) {
+export default function Footer({ copyright = "Todos os direitos reservados" }: FooterProps) {
   return (
     <footer className="footer--wrapper">
       <div className="footer--content">
